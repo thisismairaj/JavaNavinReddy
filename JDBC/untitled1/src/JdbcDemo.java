@@ -8,7 +8,7 @@ public class JdbcDemo {
     public static void main(String[] args) throws SQLException {
         String url = "jdbc:postgresql://localhost:5432/JDBC";
         String uname = "postgres";
-        String pass = "2Security";
+        String pass = "*******";
         String sql = "SELECT * FROM Persons";
 
         Connection con = DriverManager.getConnection(url,uname,pass);
